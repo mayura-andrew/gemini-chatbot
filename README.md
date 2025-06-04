@@ -72,10 +72,6 @@ This repository demonstrates a simple AI chatbot with real-time audio/video inte
 
 ### Next, connect using your preferred client app:
 
-- [Android Guide](client/android/README.md)
-- [iOS Guide](client/ios/README.md)
-- [Daily Prebuilt](client/prebuilt/README.md)
-- [JavaScript Guide](client/javascript/README.md)
 - [React Guide](client/react/README.md)
 
 ## Important Note
@@ -95,7 +91,7 @@ The bot server must be running for any of the client implementations to work. St
 ## Project Structure
 
 ```
-simple-chatbot/
+gemini-chatbot/
 ├── server/              # Bot server implementation
 │   ├── bot-openai.py    # OpenAI bot implementation
 │   ├── bot-gemini.py    # Gemini bot implementation
@@ -103,9 +99,5 @@ simple-chatbot/
 │   ├── server.py        # FastAPI server
 │   └── requirements.txt
 └── client/              # Client implementations
-    ├── android/         # Daily Android connection
-    ├── ios/             # Daily iOS connection
-    ├── javascript/      # Daily JavaScript connection
-    ├── prebuilt/        # Pipecat Prebuilt client
     └── react/           # Pipecat React client
 ```
